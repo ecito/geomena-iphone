@@ -1,0 +1,1192 @@
+TWifiLocatr
+v7
+r0
+t287352759.488551
+cCheck dependencies
+cCpResource build/Debug-iphoneos/WifiLocatr.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/Info.plist WifiLocatr-Info.plist
+cCpResource build/Debug-iphoneos/WifiLocatr.app/Three20.bundle ../three20/src/Three20.bundle
+cCopyPNGFile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/floorplan.png floorplan.png
+cProcessPCH /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch.gch WifiLocatr_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/main.o /Users/andre/Dropbox/work/WifiLocatr/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/AppDelegate.o /Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/GeolocationWiFiSpotter.o /Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiViewController.o /Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/Area.o /Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/MyHouseViewController.o /Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr normal armv6
+cGenerateDSYMFile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app.dSYM /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr
+cProcessProductPackaging "/Users/andre/Library/MobileDevice/Provisioning Profiles/99D0C40F-06BD-40B7-9EE4-DF7F7D6E8EC1.mobileprovision" /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision
+cTouch /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent
+cCodeSign /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004B47D7B70000000000000110
+t1262999479
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F49B0
+t1253947923
+s6244784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501440
+t1253948879
+s5248064
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ABDC85900000000001C28C0
+t1253951577
+s1845440
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F550
+t1253954085
+s28570960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/TargetConditionals.h
+c000000004ABDC79900000000000031E9
+t1253951385
+s12777
+
+N/Users/andre/Dropbox/work/WifiLocatr/../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004ABDBCDC0000000000290770
+t1253948636
+s2688880
+
+N/Users/andre/Dropbox/work/WifiLocatr/../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004ABDBB7700000000000D74C0
+t1253948279
+s881856
+
+N/Users/andre/Dropbox/work/WifiLocatr/../../../../../Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/lib/libz.1.2.3.dylib
+c000000004ABDB4BC0000000000033620
+t1253946556
+s210464
+
+N/Users/andre/Dropbox/work/WifiLocatr/../three20/src/Three20.bundle
+c000000004B5F07600000000000000176
+t1264519008
+s374
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.h
+c000000004B6CE2B30000000000000202
+t1265427123
+s514
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m
+c000000004B6E277F000000000000063D
+t1265510271
+s1597
+i"AppDelegate.h"
+i"WifiViewController.h"
+i"MyHouseViewController.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.h
+c000000004B6F922800000000000002C8
+t1265603112
+s712
+i<Foundation/Foundation.h>
+i"GeolocationWiFiSpotter.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m
+c000000004B6F922D0000000000000ADB
+t1265603117
+s2779
+i"Area.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/Constants.h
+c000000004B6CD11500000000000001F1
+t1265422613
+s497
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.h
+c000000004B6E154D000000000000033C
+t1265505613
+s828
+i<Foundation/Foundation.h>
+i"Constants.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m
+c000000004B6F915600000000000009E9
+t1265602902
+s2537
+i"GeolocationWiFiSpotter.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.h
+c000000004B6E372600000000000001D1
+t1265514278
+s465
+i<Foundation/Foundation.h>
+i"GeolocationWiFiSpotter.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m
+c000000004B70702F0000000000000FFD
+t1265659951
+s4093
+i"MyHouseViewController.h"
+i"Area.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.h
+c000000004B6E16050000000000000200
+t1265505797
+s512
+i<UIKit/UIKit.h>
+i"GeolocationWiFiSpotter.h"
+i"Area.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m
+c000000004B6F9512000000000000063B
+t1265603858
+s1595
+i"WifiViewController.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/WifiLocatr_Prefix.pch
+c000000004B6CD60200000000000000D7
+t1265423874
+s215
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/Three20.h"
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+t1265659959
+s374
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app.dSYM
+t1265659958
+s102
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/Info.plist
+t1265424951
+s634
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/PkgInfo
+t1265424951
+s8
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/ResourceRules.plist
+t1265424951
+s485
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/Three20.bundle
+t1265424951
+s374
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr
+t1265659957
+s1434736
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision
+t1265424954
+s9501
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/floorplan.png
+t1265510881
+s3055
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/AppDelegate.o
+t1265603117
+s42836
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/Area.o
+t1265603118
+s24728
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/GeolocationWiFiSpotter.o
+t1265603098
+s19292
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/MyHouseViewController.o
+t1265659955
+s49096
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiLocatr.LinkFileList
+c000000004B6E29E10000000000000308
+t1265510881
+s776
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiViewController.o
+t1265603872
+s42016
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/main.o
+t1265424953
+s6632
+
+N/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent
+t1265424954
+s319
+
+N/Users/andre/Dropbox/work/WifiLocatr/floorplan.png
+c000000004B6E26F400000000000005EC
+t1265510132
+s1516
+
+N/Users/andre/Dropbox/work/WifiLocatr/main.m
+c000000004B6CD6030000000000000149
+t1265423875
+s329
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSArrayAdditions.h
+c000000004B48654000000000000005C0
+t1263035712
+s1472
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSDataAdditions.h
+c000000004B48654000000000000003CF
+t1263035712
+s975
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSDateAdditions.h
+c000000004B48654000000000000009ED
+t1263035712
+s2541
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSMutableArrayAdditions.h
+c000000004B48654000000000000003BB
+t1263035712
+s955
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSMutableDictionaryAdditions.h
+c000000004B48654000000000000003CF
+t1263035712
+s975
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSObjectAdditions.h
+c000000004B4865400000000000000612
+t1263035712
+s1554
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/NSStringAdditions.h
+c000000004B4865400000000000000B33
+t1263035712
+s2867
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTActionSheetController.h
+c000000004B48654000000000000010FE
+t1263035712
+s4350
+i"Three20/TTPopupViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTActivityLabel.h
+c000000004B4865400000000000000691
+t1263035712
+s1681
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTAlertViewController.h
+c000000004B48654000000000000006F8
+t1263035712
+s1784
+i"Three20/TTPopupViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTButton.h
+c000000004B486540000000000000068E
+t1263035712
+s1678
+i"Three20/TTStyle.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTButtonBar.h
+c000000004B48654000000000000003CC
+t1263035712
+s972
+i"Three20/TTView.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTCorePreprocessorMacros.h
+c000000004B4865400000000000000AB1
+t1263035712
+s2737
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTDebug.h
+c000000004B4865400000000000001556
+t1263035712
+s5462
+i<TargetConditionals.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTDebugFlags.h
+c000000004B486540000000000000034B
+t1263035712
+s843
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTDefaultStyleSheet.h
+c000000004B4865400000000000000EB7
+t1263035712
+s3767
+i"Three20/TTStyleSheet.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTErrorView.h
+c000000004B48654000000000000003E0
+t1263035712
+s992
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalCore.h
+c000000004B4865400000000000000A34
+t1263035712
+s2612
+i<Foundation/Foundation.h>
+i"Three20/TTCorePreprocessorMacros.h"
+i"Three20/TTDebug.h"
+i"Three20/TTDebugFlags.h"
+i"Three20/NSObjectAdditions.h"
+i"Three20/NSDataAdditions.h"
+i"Three20/NSStringAdditions.h"
+i"Three20/NSArrayAdditions.h"
+i"Three20/NSMutableArrayAdditions.h"
+i"Three20/NSMutableDictionaryAdditions.h"
+i"Three20/NSDateAdditions.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalCoreLocale.h
+c000000004B48654000000000000004D9
+t1263035712
+s1241
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalCorePaths.h
+c000000004B4865400000000000000454
+t1263035712
+s1108
+i<Foundation/Foundation.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalNetwork.h
+c000000004B48654000000000000006F7
+t1263035712
+s1783
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalStyle.h
+c000000004B48654000000000000004EA
+t1263035712
+s1258
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalUI.h
+c000000004B4865400000000000001361
+t1263035712
+s4961
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/TTCorePreprocessorMacros.h"
+i"Three20/UIColorAdditions.h"
+i"Three20/UIFontAdditions.h"
+i"Three20/UIImageAdditions.h"
+i"Three20/UINavigationControllerAdditions.h"
+i"Three20/UITabBarControllerAdditions.h"
+i"Three20/UIViewAdditions.h"
+i"Three20/UITableViewAdditions.h"
+i"Three20/UIWebViewAdditions.h"
+i"Three20/UIToolbarAdditions.h"
+i"Three20/UIWindowAdditions.h"
+i"Three20/UIViewControllerAdditions.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTGlobalUINavigator.h
+c000000004B48654000000000000006A5
+t1263035712
+s1701
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/UINSStringAdditions.h"
+i"Three20/UINSObjectAdditions.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTImageView.h
+c000000004B48654000000000000006F3
+t1263035712
+s1779
+i"Three20/TTView.h"
+i"Three20/TTURLRequest.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTLabel.h
+c000000004B486540000000000000032F
+t1263035712
+s815
+i"Three20/TTView.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTLauncherItem.h
+c000000004B4865400000000000000566
+t1263035712
+s1382
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTLauncherView.h
+c000000004B4865400000000000000AA2
+t1263035712
+s2722
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTLayout.h
+c000000004B4865400000000000000549
+t1263035712
+s1353
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTLink.h
+c000000004B486540000000000000034D
+t1263035712
+s845
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTListDataSource.h
+c000000004B4865400000000000000873
+t1263035712
+s2163
+i"Three20/TTTableViewDataSource.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTMessageController.h
+c000000004B4865400000000000000E2A
+t1263035712
+s3626
+i"Three20/TTModelViewController.h"
+i"Three20/TTTextEditor.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTModel.h
+c000000004B486540000000000000155F
+t1263035712
+s5471
+i"Three20/TTURLRequest.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTModelViewController.h
+c000000004B48654000000000000016DF
+t1263035712
+s5855
+i"Three20/TTViewController.h"
+i"Three20/TTModel.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTNavigator.h
+c000000004B4865400000000000002A21
+t1263035712
+s10785
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPageControl.h
+c000000004B486540000000000000047E
+t1263035712
+s1150
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPhotoSource.h
+c000000004B48654000000000000008C9
+t1263035712
+s2249
+i"Three20/TTURLMap.h"
+i"Three20/TTModel.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPhotoView.h
+c000000004B4865400000000000000520
+t1263035712
+s1312
+i"Three20/TTImageView.h"
+i"Three20/TTPhotoSource.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPhotoViewController.h
+c000000004B4865400000000000000B87
+t1263035712
+s2951
+i"Three20/TTModelViewController.h"
+i"Three20/TTScrollView.h"
+i"Three20/TTThumbsViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPickerTextField.h
+c000000004B4865400000000000000676
+t1263035712
+s1654
+i"Three20/TTSearchTextField.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPopupViewController.h
+c000000004B486540000000000000053D
+t1263035712
+s1341
+i"Three20/TTModelViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTPostController.h
+c000000004B4865400000000000000C73
+t1263035712
+s3187
+i"Three20/TTPopupViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTRecursiveProgress.h
+c000000004B4865400000000000000E74
+t1263035712
+s3700
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTScrollView.h
+c000000004B48654000000000000014E6
+t1263035712
+s5350
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTSearchBar.h
+c000000004B486540000000000000074E
+t1263035712
+s1870
+i"Three20/TTView.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTSearchDisplayController.h
+c000000004B48654000000000000005F0
+t1263035712
+s1520
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTSearchTextField.h
+c000000004B486540000000000000079C
+t1263035712
+s1948
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTSearchlightLabel.h
+c000000004B48654000000000000004AF
+t1263035712
+s1199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTShape.h
+c000000004B4865400000000000000C97
+t1263035712
+s3223
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyle.h
+c000000004B4865400000000000003514
+t1263035712
+s13588
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/TTGlobalStyle.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyleSheet.h
+c000000004B48654000000000000003DE
+t1263035712
+s990
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyledFrame.h
+c000000004B4865400000000000000DD0
+t1263035712
+s3536
+i"Three20/TTStyle.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyledNode.h
+c000000004B486540000000000000119E
+t1263035712
+s4510
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyledText.h
+c000000004B4865400000000000000FAE
+t1263035712
+s4014
+i"Three20/TTURLRequest.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyledTextLabel.h
+c000000004B4865400000000000000862
+t1263035712
+s2146
+i"Three20/TTStyledText.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTStyledTextParser.h
+c000000004B4865400000000000000484
+t1263035712
+s1156
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTabBar.h
+c000000004B4865400000000000000ACF
+t1263035712
+s2767
+i"Three20/TTView.h"
+i"Three20/TTButton.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableHeaderView.h
+c000000004B48654000000000000002D5
+t1263035712
+s725
+i"Three20/TTView.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableItem.h
+c000000004B48654000000000000015D1
+t1263035712
+s5585
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableItemCell.h
+c000000004B4865400000000000000CE8
+t1263035712
+s3304
+i"Three20/TTTableViewCell.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableView.h
+c000000004B48654000000000000005F6
+t1263035712
+s1526
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableViewCell.h
+c000000004B4865400000000000000657
+t1263035712
+s1623
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableViewController.h
+c000000004B4865400000000000000E70
+t1263035712
+s3696
+i"Three20/TTModelViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableViewDataSource.h
+c000000004B4865400000000000000BF3
+t1263035712
+s3059
+i"Three20/TTModel.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTableViewDelegate.h
+c000000004B4865400000000000000791
+t1263035712
+s1937
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTextBarController.h
+c000000004B4865400000000000000B6F
+t1263035712
+s2927
+i"Three20/TTPopupViewController.h"
+i"Three20/TTTextEditor.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTTextEditor.h
+c000000004B48654000000000000008FE
+t1263035712
+s2302
+i"Three20/TTView.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTThumbView.h
+c000000004B48654000000000000002C4
+t1263035712
+s708
+i"Three20/TTButton.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTThumbsTableViewCell.h
+c000000004B486540000000000000054F
+t1263035712
+s1359
+i"Three20/TTTableViewCell.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTThumbsViewController.h
+c000000004B48654000000000000008AB
+t1263035712
+s2219
+i"Three20/TTTableViewDataSource.h"
+i"Three20/TTTableViewController.h"
+i"Three20/TTThumbsTableViewCell.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTURLCache.h
+c000000004B4865400000000000001501
+t1263035712
+s5377
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTURLMap.h
+c000000004B48654000000000000018B2
+t1263035712
+s6322
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTURLRequest.h
+c000000004B4865400000000000001829
+t1263035712
+s6185
+i"Three20/TTGlobalNetwork.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTURLRequestQueue.h
+c000000004B4865400000000000000CAC
+t1263035712
+s3244
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTURLResponse.h
+c000000004B48654000000000000004FF
+t1263035712
+s1279
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTView.h
+c000000004B48654000000000000003A2
+t1263035712
+s930
+i"Three20/TTStyle.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTViewController.h
+c000000004B4865400000000000000BA8
+t1263035712
+s2984
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTWebController.h
+c000000004B48654000000000000005EA
+t1263035712
+s1514
+i"Three20/TTModelViewController.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/TTYouTubeView.h
+c000000004B4865400000000000000318
+t1263035712
+s792
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/Three20.h
+c000000004B48654000000000000010D7
+t1263035712
+s4311
+i"Three20/TTGlobalCore.h"
+i"Three20/TTGlobalCoreLocale.h"
+i"Three20/TTGlobalCorePaths.h"
+i"Three20/TTGlobalUI.h"
+i"Three20/TTGlobalUINavigator.h"
+i"Three20/TTViewController.h"
+i"Three20/TTWebController.h"
+i"Three20/TTMessageController.h"
+i"Three20/TTAlertViewController.h"
+i"Three20/TTActionSheetController.h"
+i"Three20/TTPostController.h"
+i"Three20/TTTextBarController.h"
+i"Three20/TTView.h"
+i"Three20/TTImageView.h"
+i"Three20/TTYouTubeView.h"
+i"Three20/TTScrollView.h"
+i"Three20/TTLauncherView.h"
+i"Three20/TTLauncherItem.h"
+i"Three20/TTLabel.h"
+i"Three20/TTStyledTextLabel.h"
+i"Three20/TTActivityLabel.h"
+i"Three20/TTSearchlightLabel.h"
+i"Three20/TTButton.h"
+i"Three20/TTLink.h"
+i"Three20/TTTabBar.h"
+i"Three20/TTButtonBar.h"
+i"Three20/TTPageControl.h"
+i"Three20/TTTextEditor.h"
+i"Three20/TTSearchTextField.h"
+i"Three20/TTPickerTextField.h"
+i"Three20/TTSearchBar.h"
+i"Three20/TTTableViewController.h"
+i"Three20/TTSearchDisplayController.h"
+i"Three20/TTTableView.h"
+i"Three20/TTListDataSource.h"
+i"Three20/TTTableViewDelegate.h"
+i"Three20/TTTableHeaderView.h"
+i"Three20/TTTableViewCell.h"
+i"Three20/TTTableItem.h"
+i"Three20/TTTableItemCell.h"
+i"Three20/TTErrorView.h"
+i"Three20/TTPhotoSource.h"
+i"Three20/TTPhotoViewController.h"
+i"Three20/TTPhotoView.h"
+i"Three20/TTThumbsViewController.h"
+i"Three20/TTThumbsTableViewCell.h"
+i"Three20/TTThumbView.h"
+i"Three20/TTRecursiveProgress.h"
+i"Three20/TTGlobalNetwork.h"
+i"Three20/TTModel.h"
+i"Three20/TTNavigator.h"
+i"Three20/TTURLMap.h"
+i"Three20/TTURLCache.h"
+i"Three20/TTURLRequestQueue.h"
+i"Three20/TTURLRequest.h"
+i"Three20/TTURLResponse.h"
+i"Three20/TTGlobalStyle.h"
+i"Three20/TTDefaultStyleSheet.h"
+i"Three20/TTLayout.h"
+i"Three20/TTShape.h"
+i"Three20/TTStyle.h"
+i"Three20/TTStyledText.h"
+i"Three20/TTStyledNode.h"
+i"Three20/TTStyledFrame.h"
+i"Three20/TTStyledTextParser.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIColorAdditions.h
+c000000004B4865400000000000000619
+t1263035712
+s1561
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIFontAdditions.h
+c000000004B48654000000000000005F6
+t1263035712
+s1526
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/TTGlobalCore.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIImageAdditions.h
+c000000004B486540000000000000054A
+t1263035712
+s1354
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UINSObjectAdditions.h
+c000000004B4865400000000000000394
+t1263035712
+s916
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UINSStringAdditions.h
+c000000004B486540000000000000049D
+t1263035712
+s1181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UINavigationControllerAdditions.h
+c000000004B4865400000000000000464
+t1263035712
+s1124
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UITabBarControllerAdditions.h
+c000000004B48654000000000000002DF
+t1263035712
+s735
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UITableViewAdditions.h
+c000000004B4865400000000000000560
+t1263035712
+s1376
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIToolbarAdditions.h
+c000000004B486540000000000000032F
+t1263035712
+s815
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIViewAdditions.h
+c000000004B48654000000000000012F0
+t1263035712
+s4848
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/TTGlobalCore.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIViewControllerAdditions.h
+c000000004B48654000000000000018CD
+t1263035712
+s6349
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Three20/TTGlobalCore.h"
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIWebViewAdditions.h
+c000000004B4865400000000000000363
+t1263035712
+s867
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/Three20/UIWindowAdditions.h
+c000000004B4865400000000000000309
+t1263035712
+s777
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/andre/Dropbox/work/three20/src/build/Debug-iphoneos/libThree20.a
+c000000004B6CBE20000000000049F9C8
+t1265417760
+s4848072
+
+N/Users/andre/Dropbox/work/three20/src/build/Debug-iphonesimulator/libThree20.a
+c000000004B65765000000000003DA108
+t1264940624
+s4038920
+
+N/Users/andre/Library/MobileDevice/Provisioning Profiles/99D0C40F-06BD-40B7-9EE4-DF7F7D6E8EC1.mobileprovision
+c000000004B457BFC000000000000251D
+t1262844924
+s9501
+
+N/var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-aimhmkblvgovycgzrpibtivxvtqu/WifiLocatr_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch.gch
+t1265424953
+s9931492
+
+NWifiLocatr-Info.plist
+c000000004B6CDA36000000000000033B
+t1265424950
+s827
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies287352753#287352753#0(255"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Andre Navarro (VW7Q7Y5GC6)', 'iPhone Developer: Ramak Sedigh (ATMVE3Z2QJ)' -- 'iPhone Developer: Andre Navarro (VW7Q7Y5GC6)' will be used.1(22@247"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Andre Navarro (VW7Q7Y5GC6)', 'iPhone Developer: Ramak Sedigh (ATMVE3Z2QJ)' -- 'iPhone Developer: Andre Navarro (VW7Q7Y5GC6)' will be used.287352753#18446744073709551615#0#0(1@0"0(0#1#0"4300903632#0"0#
+
+CCodeSign /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+s287352758.291235
+e287352759.488205
+r1
+xCodeSign
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/WifiLocatr.app287352758#287352759#0(0"0(0#0#72"/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app4300903632#675"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Andre Navarro (VW7Q7Y5GC6)" --resource-rules=/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/ResourceRules.plist --entitlements /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app0#
+
+CCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/AppDelegate.o /Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287295917.845444
+e287295917.976460
+r1
+xCompileC
+xbuild/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/AppDelegate.o
+x/Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m287295917#287295918#0(0"0(0#0#58"/Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m4300903632#1932"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -include /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch -c /Users/andre/Dropbox/work/WifiLocatr/Classes/AppDelegate.m -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/AppDelegate.o0#
+
+CCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/Area.o /Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287295917.976573
+e287295918.206133
+r1
+xCompileC
+xbuild/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/Area.o
+x/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m:119: warning: property 'rect' requires method '-rect' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m:119: warning: property 'rect' requires the method 'setRect:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@59"Compile /Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m287295917#287295918#0(373"/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m:119: warning: property 'rect' requires method '-rect' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m:119: warning: property 'rect' requires the method 'setRect:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@116"Property 'rect' requires method '-rect' to be defined - use @synthesize, @dynamic or provide a method implementation287295918#0#183#0(6@51"/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m287295917#119#0#119#0#0"0(22@123"Property 'rect' requires the method 'setRect:' to be defined - use @synthesize, @dynamic or provide a method implementation287295918#183#190#0(6@51"/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m287295917#119#0#119#0#0"0(0#0#51"/Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m4300903632#1918"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -include /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch -c /Users/andre/Dropbox/work/WifiLocatr/Classes/Area.m -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/Area.o0#
+
+CCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/GeolocationWiFiSpotter.o /Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287295897.920045
+e287295898.149639
+r1
+xCompileC
+xbuild/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/GeolocationWiFiSpotter.o
+x/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter init]':
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:24: warning: implicit declaration of function 'dlopen'
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:24: warning: assignment makes pointer from integer without a cast
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:25: warning: implicit declaration of function 'dlsym'
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:25: warning: assignment makes pointer from integer without a cast
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:26: warning: assignment makes pointer from integer without a cast
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:27: warning: assignment makes pointer from integer without a cast
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:28: warning: assignment makes pointer from integer without a cast
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:29: warning: assignment makes pointer from integer without a cast
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter close]':
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:41: warning: implicit declaration of function 'dlclose'
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter performScan]':
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:53: warning: passing argument 2 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' from incompatible pointer type
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:53: warning: passing argument 3 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' discards qualifiers from pointer target type
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: At top level:
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:95: warning: incomplete implementation of class 'GeolocationWiFiSpotter'
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:95: warning: method definition for '-signalData' not found
+lSLF07#2@77"Compile /Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295897#287295898#0(2403"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter init]':/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:24: warning: implicit declaration of function 'dlopen'/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:24: warning: assignment makes pointer from integer without a cast/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:25: warning: implicit declaration of function 'dlsym'/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:25: warning: assignment makes pointer from integer without a cast/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:26: warning: assignment makes pointer from integer without a cast/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:27: warning: assignment makes pointer from integer without a cast/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:28: warning: assignment makes pointer from integer without a cast/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:29: warning: assignment makes pointer from integer without a cast/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter close]':/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:41: warning: implicit declaration of function 'dlclose'/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter performScan]':/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:53: warning: passing argument 2 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' from incompatible pointer type/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:53: warning: passing argument 3 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' discards qualifiers from pointer target type/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m: At top level:/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:95: warning: incomplete implementation of class 'GeolocationWiFiSpotter'/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m:95: warning: method definition for '-signalData' not found14(22@41"Implicit declaration of function 'dlopen'287295898#117#125#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#24#0#24#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast287295898#242#136#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#24#0#24#0#0"0(22@40"Implicit declaration of function 'dlsym'287295898#378#124#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#25#0#25#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast287295898#502#136#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#25#0#25#0#0"0(22@52"Assignment makes pointer from integer without a cast287295898#638#136#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#26#0#26#0#0"0(22@52"Assignment makes pointer from integer without a cast287295898#774#136#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#27#0#27#0#0"0(22@52"Assignment makes pointer from integer without a cast287295898#910#136#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#28#0#28#0#0"0(22@52"Assignment makes pointer from integer without a cast287295898#1046#136#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#29#0#29#0#0"0(22@42"Implicit declaration of function 'dlclose'287295898#1300#126#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#41#0#41#0#36"implicit declaration of function '*'0(22@157"Passing argument 2 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' from incompatible pointer type287295898#1550#241#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#53#0#53#0#56"passing argument * of '*' from incompatible pointer type0(22@171"Passing argument 3 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' discards qualifiers from pointer target type287295898#1791#255#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#53#0#53#0#70"passing argument * of '*' discards qualifiers from pointer target type0(23@13"At top level:287295898#2046#85#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#0#0#0#0#0"0(22@59"Incomplete implementation of class 'GeolocationWiFiSpotter'287295898#2131#143#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#95#0#95#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-signalData' not found287295898#2274#129#0(6@69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m287295702#95#0#95#0#35"method definition for '*' not found0(0#0#69"/Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m4300903632#1954"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -include /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch -c /Users/andre/Dropbox/work/WifiLocatr/Classes/GeolocationWiFiSpotter.m -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/GeolocationWiFiSpotter.o0#
+
+CCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/MyHouseViewController.o /Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287352753.821160
+e287352755.361778
+r1
+xCompileC
+xbuild/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/MyHouseViewController.o
+x/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m:132: warning: property 'autoRefresh' requires method '-autoRefresh' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m:132: warning: property 'autoRefresh' requires the method 'setAutoRefresh:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@76"Compile /Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m287352753#287352755#0(435"/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m:132: warning: property 'autoRefresh' requires method '-autoRefresh' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m:132: warning: property 'autoRefresh' requires the method 'setAutoRefresh:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@130"Property 'autoRefresh' requires method '-autoRefresh' to be defined - use @synthesize, @dynamic or provide a method implementation287352755#0#214#0(6@68"/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m287352751#132#0#132#0#0"0(22@137"Property 'autoRefresh' requires the method 'setAutoRefresh:' to be defined - use @synthesize, @dynamic or provide a method implementation287352755#214#221#0(6@68"/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m287352751#132#0#132#0#0"0(0#0#68"/Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m4300903632#1952"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -include /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch -c /Users/andre/Dropbox/work/WifiLocatr/Classes/MyHouseViewController.m -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/MyHouseViewController.o0#
+
+CCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiViewController.o /Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287296672.041558
+e287296672.219821
+r1
+xCompileC
+xbuild/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiViewController.o
+x/Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m287296672#287296672#0(0"0(0#0#65"/Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m4300903632#1946"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -include /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch -c /Users/andre/Dropbox/work/WifiLocatr/Classes/WifiViewController.m -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiViewController.o0#
+
+CCompileC build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/main.o /Users/andre/Dropbox/work/WifiLocatr/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287117753.556990
+e287117753.648055
+r1
+xCompileC
+xbuild/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/main.o
+x/Users/andre/Dropbox/work/WifiLocatr/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/andre/Dropbox/work/WifiLocatr/main.m287117753#287117753#0(0"0(0#0#43"/Users/andre/Dropbox/work/WifiLocatr/main.m4300903632#1910"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -include /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch -c /Users/andre/Dropbox/work/WifiLocatr/main.m -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/main.o0#
+
+CCopyPNGFile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/floorplan.png floorplan.png
+s287203681.254936
+e287203681.643393
+r1
+xCopyPNGFile
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/floorplan.png
+xfloorplan.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/WifiLocatr.app/floorplan.png floorplan.png287203681#287203681#0(0"0(0#0#50"/Users/andre/Dropbox/work/WifiLocatr/floorplan.png4300903632#563"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/andre/Dropbox/work/WifiLocatr/floorplan.png /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/floorplan.png0#
+
+CCpResource build/Debug-iphoneos/WifiLocatr.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s287117751.478171
+e287117751.529714
+r1
+xCpResource
+xbuild/Debug-iphoneos/WifiLocatr.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist287117751#287117751#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4300903632#481"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app0#
+
+CCpResource build/Debug-iphoneos/WifiLocatr.app/Three20.bundle ../three20/src/Three20.bundle
+s287117751.530271
+e287117751.541030
+r1
+xCpResource
+xbuild/Debug-iphoneos/WifiLocatr.app/Three20.bundle
+x../three20/src/Three20.bundle
+lSLF07#2@34"Copy ../three20/src/Three20.bundle287117751#287117751#0(0"0(0#0#66"/Users/andre/Dropbox/work/WifiLocatr/../three20/src/Three20.bundle4300903632#456"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/andre/Dropbox/work/WifiLocatr/../three20/src/Three20.bundle /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app0#
+
+CGenerateDSYMFile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app.dSYM /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr
+s287352757.828133
+e287352758.277307
+r1
+xGenerateDSYMFile
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app.dSYM
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/WifiLocatr.app.dSYM build/Debug-iphoneos/WifiLocatr.app/WifiLocatr287352757#287352758#0(0"0(0#0#83"/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr4300903632#365"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr -o /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app.dSYM0#
+
+CLd /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr normal armv6
+s287352755.362055
+e287352757.827947
+r1
+xLd
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr
+xnormal
+xarmv6
+lSLF07#2@88"Link /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr287352755#287352757#0(0"0(0#0#0"4300903632#1005"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -filelist /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/Objects-normal/armv6/WifiLocatr.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics /Users/andre/Dropbox/work/three20/src/build/Debug-iphoneos/libThree20.a -framework QuartzCore -lz.1.2.3 -framework CFNetwork -framework SystemConfiguration -o /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/WifiLocatr0#
+
+CProcessInfoPlistFile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/Info.plist WifiLocatr-Info.plist
+s287117751.479402
+e287117751.530189
+r1
+xProcessInfoPlistFile
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/Info.plist
+xWifiLocatr-Info.plist
+lSLF07#2@29"Process WifiLocatr-Info.plist287117751#287117751#0(0"0(0#0#58"/Users/andre/Dropbox/work/WifiLocatr/WifiLocatr-Info.plist4300903632#566"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility WifiLocatr-Info.plist -genpkginfo /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/ResourceRules.plist -o /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/Info.plist0#
+
+CProcessPCH /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-aimhmkblvgovycgzrpibtivxvtqu/WifiLocatr_Prefix.pch.gch WifiLocatr_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch.gch WifiLocatr_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s287117751.541170
+e287117753.556695
+r1
+xProcessPCH
+x/var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch.gch
+xWifiLocatr_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile WifiLocatr_Prefix.pch287117751#287117753#0(0"0(0#0#58"/Users/andre/Dropbox/work/WifiLocatr/WifiLocatr_Prefix.pch4300903632#1807"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-generated-files.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-own-target-headers.hmap -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-all-target-headers.hmap -iquote /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr-project-headers.hmap -F/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos -I/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/include -I../three20/src -I../three20/src/tests -I../three20/src/Three20 -I../three20/src/Three20.bundle -I../three20/src/Three20.bundle/images -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources/armv6 -I/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/DerivedSources -c /Users/andre/Dropbox/work/WifiLocatr/WifiLocatr_Prefix.pch -o /var/folders/zF/zF3AwALvFfmrB63DGTrczU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WifiLocatr_Prefix-bzkbmldwnombutekbsswkvnrlamc/WifiLocatr_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/andre/Library/MobileDevice/Provisioning Profiles/99D0C40F-06BD-40B7-9EE4-DF7F7D6E8EC1.mobileprovision" /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision
+s287117754.764308
+e287117754.851222
+r1
+xProcessProductPackaging
+x/Users/andre/Library/MobileDevice/Provisioning Profiles/99D0C40F-06BD-40B7-9EE4-DF7F7D6E8EC1.mobileprovision
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/andre/Library/MobileDevice/Provisioning Profiles/99D0C40F-06BD-40B7-9EE4-DF7F7D6E8EC1.mobileprovision" build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision287117754#287117754#0(0"0(0#0#97"/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision4300903632#422"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/andre/Library/MobileDevice/Provisioning Profiles/99D0C40F-06BD-40B7-9EE4-DF7F7D6E8EC1.mobileprovision" -o /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent
+s287117754.856145
+e287117754.867355
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent287117754#287117754#0(0"0(0#0#108"/Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent4300903632#439"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/andre/Dropbox/work/WifiLocatr/build/WifiLocatr.build/Debug-iphoneos/WifiLocatr.build/WifiLocatr.xcent0#
+
+CTouch /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+s287352758.277543
+e287352758.291018
+r1
+xTouch
+x/Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app
+lSLF07#2@78"Touch /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app287352758#287352758#0(0"0(0#0#0"4300903632#263"    cd /Users/andre/Dropbox/work/WifiLocatr    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/andre/Dropbox/work/WifiLocatr/build/Debug-iphoneos/WifiLocatr.app0#
+

@@ -1,0 +1,18 @@
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter init]':
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:24: warning: implicit declaration of function 'dlopen'
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:24: warning: assignment makes pointer from integer without a cast
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:25: warning: implicit declaration of function 'dlsym'
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:25: warning: assignment makes pointer from integer without a cast
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:26: warning: assignment makes pointer from integer without a cast
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:27: warning: assignment makes pointer from integer without a cast
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:28: warning: assignment makes pointer from integer without a cast
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:29: warning: assignment makes pointer from integer without a cast
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter close]':
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:38: warning: implicit declaration of function 'dlclose'
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m: In function '-[GeolocationWiFiSpotter performScan]':
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:48: warning: passing argument 2 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' from incompatible pointer type
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:48: warning: passing argument 3 of '*(int (**)(void *, struct NSArray **, void *))((char *)self + OBJC_IVAR_$_GeolocationWiFiSpotter.scan)' discards qualifiers from pointer target type
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m: At top level:
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:78: warning: incomplete implementation of class 'GeolocationWiFiSpotter'
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:78: warning: method definition for '-signalDataAPCount' not found
+/Users/andre/Dropbox/work/geomena-iphone/Classes/GeolocationWiFiSpotter.m:78: warning: method definition for '-signalData' not found
