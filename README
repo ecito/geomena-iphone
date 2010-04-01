@@ -1,1 +1,6 @@
-This app will take your current location and display a list of access points visible to the iPhone, which you can send to the free creative commons licensed access point location database at geomena.org 
+This app will take your current location and display a list of access points visible to the iPhone, which you can send to the free creative commons licensed access point location database at geomena.org
+
+Uses the three20 framework, so be sure to git clone three20 right next to this project:
+
+git clone git://github.com/ecito/geomena-iphone.git
+git clone git://github.com/facebook/three20.git
