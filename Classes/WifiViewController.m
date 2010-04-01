@@ -9,13 +9,16 @@
 #import "WifiViewController.h"
 
 @implementation WifiViewController
-@synthesize locationManager, currentLocation;
+@synthesize locationManager, currentLocation, counter;
 
 - (id) init {
 	self = [super init];
 	if (self != nil) {
 		self.locationManager = [[[CLLocationManager alloc] init] autorelease];
 		self.locationManager.delegate = self; 
+		
+		self.counter = 0;
+		self.title = [NSString stringWithFormat:@"Sent: %d", self.counter];
 	}
 	return self;
 }
@@ -25,9 +28,7 @@
 					 fromLocation:(CLLocation *)oldLocation
 {
 	currentLocation = newLocation.coordinate;
-	
-	TTAlert(@"locationManagerDidUpdateToLocationFromLocation");
-	[locationManager stopUpdatingLocation];
+	//[self scanNetworks];
 }
 
 - (void)locationUpdate:(CLLocation *)location {
@@ -57,9 +58,12 @@
 		[networkItems addObject:[TTTableSubtitleItem itemWithText:aNetwork
 																										 subtitle:[networks objectForKey:aNetwork]
 																													URL:[NSString stringWithFormat:@"http://geomena.org/ap/%@", mac]]];
+		[self sendParametersFor:mac andSSID:[networks objectForKey:aNetwork]];
+
 	}
 	
 	self.dataSource = [TTSectionedDataSource dataSourceWithItems:networkItems sections:nil];
+
 }
 
 - (void)viewDidLoad {
@@ -68,12 +72,12 @@
 	locationManager.delegate = self;
 	[locationManager startUpdatingLocation];
 	
-	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Rescan"
+	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"scan/send"
 																																						 style:UIBarButtonItemStyleBordered target:self
 																																						action:@selector(scanNetworks)] autorelease];
-	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Push"
-																																						 style:UIBarButtonItemStyleBordered target:self
-																																						action:@selector(pushToGeomena)] autorelease];
+//	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Push"
+//																																						 style:UIBarButtonItemStyleBordered target:self
+//																																						action:@selector(pushToGeomena)] autorelease];
 	
 	[[WiFiScanner sharedInstance] setDelegate: self];
 
@@ -97,35 +101,40 @@
 		NSString *mac = [NSString stringWithFormat:@"0%@",
 										 [aNetwork stringByReplacingOccurrencesOfString:@":" withString:@""]];
 		
-		[self sendParametersFor:mac];
+		[self sendParametersFor:mac andSSID:[networks objectForKey:aNetwork]];
 		
 	}
 }
 
-- (void)sendParametersFor:(NSString*)AP {
+- (void)sendParametersFor:(NSString*)MAC andSSID:(NSString*)SSID {
 
-	NSDictionary *parameters = [[NSDictionary alloc] initWithObjectsAndKeys:
-	 [NSString stringWithFormat:@"%f", currentLocation.latitude], @"latitude",
-	 [NSString stringWithFormat:@"%f", currentLocation.longitude], @"longitude",
-	 nil];
-	
-	
-	NSString *url = [NSString stringWithFormat:@"http://geomena.org/ap/%@", AP];
-	
-	TTURLRequest *request = [TTURLRequest requestWithURL:url
-																							delegate:self];
-	
-	request.httpMethod = @"POST";
-	[request.parameters addEntriesFromDictionary:parameters];
-	
+	if (currentLocation.latitude != 0. && currentLocation.longitude != 0.) {
+		NSLog(@"sending lat: %f and lon: %f", currentLocation.latitude, currentLocation.longitude);
+		NSLog(@"sending MAC: %@ and SSID: %@", MAC, SSID);
+		NSDictionary *parameters = [[NSDictionary alloc] initWithObjectsAndKeys:
+		 [NSString stringWithFormat:@"%f", currentLocation.latitude], @"latitude",
+		 [NSString stringWithFormat:@"%f", currentLocation.longitude], @"longitude",
+																SSID, @"ssid",
+		 nil];
+		
+		
+		NSString *url = [NSString stringWithFormat:@"http://geomena.org/ap/%@", MAC];
+		
+		TTURLRequest *request = [TTURLRequest requestWithURL:url
+																								delegate:self];
+		
+		request.httpMethod = @"POST";
+		[request.parameters addEntriesFromDictionary:parameters];
+		
 
-	[request send];	
-	
+		[request sendSynchronously];	
+	}
 }
 			 
 - (void)requestDidFinishLoad:(TTURLRequest*)request {
-	
-	TTAlert(@"saved at geomena");
+	NSLog(@"finishined sending one");
+	counter++;
+	self.title = [NSString stringWithFormat:@"Sent: %d", counter];
 }
 
 - (void)request:(TTURLRequest *)request didFailLoadWithError:(NSError *)error {

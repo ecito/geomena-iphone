@@ -1,7 +1,0 @@
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m: In function '-[WifiViewController viewDidLoad]':
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m:80: warning: 'WifiViewController' may not respond to '-scanNetworks'
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m:80: warning: (Messages without a matching method signature
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m:80: warning: will be assumed to return 'id' and accept
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m:80: warning: '...' as arguments.)
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m: In function '-[WifiViewController pushToGeomena]':
-/Users/andre/Dropbox/work/geomena-iphone/Classes/WifiViewController.m:100: warning: 'WifiViewController' may not respond to '-sendParametersFor:'

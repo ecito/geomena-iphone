@@ -61,7 +61,7 @@ static WiFiScanner *sharedInstance;
 	{
 		for (int i = 0, n = CFArrayGetCount(networks); i < n; i++) {
 			CFDictionaryRef network = CFArrayGetValueAtIndex(networks, i);
-			[networksDict setValue:[NSString stringWithFormat:@"%@", CFDictionaryGetValue(network, @"RSSI")]
+			[networksDict setValue:[NSString stringWithFormat:@"%@", CFDictionaryGetValue(network, @"SSID_STR")]
 											forKey:[NSString stringWithFormat:@"%@", CFDictionaryGetValue(network, @"BSSID")]];
 		}
 	}

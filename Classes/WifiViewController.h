@@ -13,8 +13,10 @@
 @interface WifiViewController : TTTableViewController <GeolocationWiFiSpotterDelegate, CLLocationManagerDelegate, TTURLRequestDelegate> {
 	CLLocationManager *locationManager;
 	CLLocationCoordinate2D currentLocation;
+	int counter;
 }
 
 @property (nonatomic, retain) CLLocationManager *locationManager;
 @property (nonatomic, assign) CLLocationCoordinate2D currentLocation;
+@property (nonatomic, assign) int counter;
 @end
