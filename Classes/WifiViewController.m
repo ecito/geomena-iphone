@@ -111,10 +111,11 @@
 	if (currentLocation.latitude != 0. && currentLocation.longitude != 0.) {
 		NSLog(@"sending lat: %f and lon: %f", currentLocation.latitude, currentLocation.longitude);
 		NSLog(@"sending MAC: %@ and SSID: %@", MAC, SSID);
+		
 		NSDictionary *parameters = [[NSDictionary alloc] initWithObjectsAndKeys:
 		 [NSString stringWithFormat:@"%f", currentLocation.latitude], @"latitude",
 		 [NSString stringWithFormat:@"%f", currentLocation.longitude], @"longitude",
-																SSID, @"ssid",
+																SSID, @"essid",
 		 nil];
 		
 		
